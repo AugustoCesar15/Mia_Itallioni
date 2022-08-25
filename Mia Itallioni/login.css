@@ -1,0 +1,30 @@
+
+.caixa {
+    border: 1.2px solid black; 
+    box-sizing: border-box; 
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+.titulo1{
+    text-align: center; 
+    margin: 100px 0 30px;
+}
+.titulo2{
+    text-align: center;
+}
+.formulario{
+    width: 80%; 
+    margin: 0 auto 80px;
+}
+@media (min-width: 768px) {
+    .formulario{
+        width: 50%; 
+        margin: 0 auto 80px;
+    }
+    .caixa{
+    border: 1.2px solid black; 
+    box-sizing: border-box; 
+    padding: 30px 55px 40px; 
+    border-radius: 5px;
+    }
+}

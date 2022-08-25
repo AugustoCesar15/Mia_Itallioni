@@ -1,0 +1,17 @@
+/*Para mobile*/
+.teste {
+    width: 85%;
+    margin: 0 auto;
+}
+
+@media (min-width: 576px) { 
+   .teste {
+       width: 25%;
+       margin: 0 15px;
+    }
+}
+
+
+@media (min-width: 768px) { 
+
+}
